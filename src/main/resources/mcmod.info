@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "itsdangeroustogoalone",
+    "name": "ItsDangerousToGoAlone",
+    "description": "Pixelmon Utility tool to pick ones Starter from a custom GUI, Whether Shiny or Regular",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "Winglet"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
