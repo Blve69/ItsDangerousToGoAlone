@@ -32,7 +32,7 @@ public class StarterUI {
                     player.getServer().getCommandManager().executeCommand(server, "pokegive "+ buttonAction.getPlayer().getName() +" "+species.name+" level:5");
                     player.getServer().getCommandManager().executeCommand(server, "plaintell "+ buttonAction.getPlayer().getName()+ " §6§lOak §8§l>§r §7It's dangerous to go alone, take your partner with you!");
                     player.getServer().getCommandManager().executeCommand(server, "plaintell "+ buttonAction.getPlayer().getName()+ " §7You received §e"+species.name+"§7,§b "+ buttonAction.getPlayer().getName()+"§7!");
-                    player.getServer().getCommandManager().executeCommand(server, "lp user "+ buttonAction.getPlayer().getName()+ " permission set starterselector.command.starters false");
+                    player.getServer().getCommandManager().executeCommand(server, "lp user "+ buttonAction.getPlayer().getName()+ " permission set itsdangeroustogoalone.command.starters false");
                     InventoryAPI.getInstance().closePlayerInventory(player);
                 })
                 .build();
